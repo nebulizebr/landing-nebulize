@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing Page - Nebulize</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+    .container {
+      max-width: 500px;
+      background-color: #ffffff;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+    .logo img {
+      width: 180px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #145a32;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 25px;
+      line-height: 1.5;
+    }
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      font-size: 15px;
+    }
+    button {
+      width: 100%;
+      background-color: #145a32;
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #0f4526;
+    }
+    .footer {
+      font-size: 12px;
+      color: #666;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="Logo-Nebulize.png" alt="Nebulize Logo" />
+    </div>
+    <h1>Pare agora de perder dinheiro com hortaliças murchas e desidratadas!</h1>
+    <p>
+      Cadastre-se agora mesmo para receber mais informações sobre o nosso sistema de nebulização e saber como ele pode te ajudar a reduzir as perdas no FLV e manter suas hortaliças hidratadas, frescas e com aspecto de recém colhidas do campo!<br><br>
+      Nebulização é com a Nebulize: referência nacional em nebulização!<br>
+      www.nebulize.com.br<br>
+      Whatsapp: (41) 3016-1320
+    </p>
+
+    <form action="https://formspree.io/f/xjkraaej" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required />
+      <input type="email" name="email" placeholder="Seu e-mail" required />
+      <button type="submit">Quero saber mais</button>
+    </form>
+
+    <div class="footer">
+      🔒 Seus dados estão seguros conosco. Não enviamos spam.
+    </div>
+  </div>
+</body>
+</html>
